@@ -12,7 +12,7 @@ int main()
 	    }
 	else if(marks>=55 && marks<70){
 		printf("You got Grade C!\n");	
-     	}                             
+     	    }                             
 	else if(marks>=40 && marks<55){
 		printf("You got Grade D!\n");	
 	    } 
@@ -21,6 +21,6 @@ int main()
 	    }
 	else{
 		printf("Invalid Option!\nEnter a value between 0 and 100");
-     	}
+     	    }
 	return 0;	     	        
 }
